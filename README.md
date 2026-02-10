@@ -34,3 +34,17 @@ pip install -r requirements.txt
 </h4> Usage
 python src/main.py data/sample_email.eml
 
+<h5>Use Case: Incident Response Workflow
+
+User reports suspicious email
+
+Analyst uploads .eml file into PhishScope
+
+Tool analyzes headers and content
+
+Risk score determines escalation priority
+
+Indicators are extracted for blocking
+
+Incident report is attached to ticket
+
