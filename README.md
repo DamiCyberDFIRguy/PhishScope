@@ -16,7 +16,7 @@
 
 <h2>Detection Capabilities
 
--Mismatch between From, Return-Path, and Received headers
+- Mismatch between From, Return-Path, and Received headers
 
 - Suspicious or newly observed domains
 
@@ -34,17 +34,31 @@ pip install -r requirements.txt
 </h4> Usage
 python src/main.py data/sample_email.eml
 
-<h5>Use Case: Incident Response Workflow
+<h5> Output{
+  "email_subject": "Urgent: Account Verification Required",
+  "risk_score": 87,
+  "classification": "High Confidence Phishing",
+  "indicators": {
+    "domains": ["secure-login[.]co"],
+    "ips": ["185.234.218.12"],
+    "urls": ["http://secure-login[.]co/verify"]
+  }
+}
+</h5>
 
-User reports suspicious email
+<h6>Use Case: Incident Response Workflow
 
-Analyst uploads .eml file into PhishScope
+- User reports suspicious email
 
-Tool analyzes headers and content
+- Analyst uploads .eml file into PhishScope
 
-Risk score determines escalation priority
+- Tool analyzes headers and content
 
-Indicators are extracted for blocking
+- Risk score determines escalation priority
 
-Incident report is attached to ticket
+- Indicators are extracted for blocking
+
+- Incident report is attached to ticket
+
+
 
