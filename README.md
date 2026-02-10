@@ -1,6 +1,6 @@
 # PhishScope
 
-Features
+<h1>Features
 
 Email header parsing and analysis
 
@@ -14,7 +14,7 @@ Rule-based phishing risk scoring
 
 JSON incident report generation
 
-Detection Capabilities
+<h2>Detection Capabilities
 
 Mismatch between From, Return-Path, and Received headers
 
@@ -26,10 +26,11 @@ IP reputation mismatches
 
 High-risk keyword detection in email body
 
-Installation
+<h3>Installation
 git clone https://github.com/yourusername/phishscope.git
 cd phishscope
 pip install -r requirements.txt
 
+</h4> Usage
 python src/main.py data/sample_email.eml
 
