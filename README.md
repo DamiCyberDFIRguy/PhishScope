@@ -26,4 +26,10 @@ IP reputation mismatches
 
 High-risk keyword detection in email body
 
-🛠️ Installation
+Installation
+git clone https://github.com/yourusername/phishscope.git
+cd phishscope
+pip install -r requirements.txt
+
+python src/main.py data/sample_email.eml
+
