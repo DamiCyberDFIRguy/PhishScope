@@ -2,29 +2,29 @@
 
 <h1>Features
 
-Email header parsing and analysis
+- Email header parsing and analysis
 
-Sender spoofing detection
+- Sender spoofing detection
 
-URL and domain extraction
+- URL and domain extraction
 
-Known-bad indicator matching
+- Known-bad indicator matching
 
-Rule-based phishing risk scoring
+- Rule-based phishing risk scoring
 
-JSON incident report generation
+- JSON incident report generation
 
 <h2>Detection Capabilities
 
-Mismatch between From, Return-Path, and Received headers
+-Mismatch between From, Return-Path, and Received headers
 
-Suspicious or newly observed domains
+- Suspicious or newly observed domains
 
-Obfuscated URLs (URL shorteners, hex encoding)
+- Obfuscated URLs (URL shorteners, hex encoding)
 
-IP reputation mismatches
+- IP reputation mismatches
 
-High-risk keyword detection in email body
+- High-risk keyword detection in email body
 
 <h3>Installation
 git clone https://github.com/yourusername/phishscope.git
